@@ -1,0 +1,15 @@
+{
+  "name": "page-generator",
+  "version": "1.0.0",
+  "description": "A small spaghetti script to build my handlebars templates so I don't have to manage thousands of static files for uni.",
+  "scripts": {
+      "build": "node ./src/compile.js ./src/config.json ./src/templates/ ./out/"
+  },
+  "repository": "git@github.com:TomDotBat/page-generator.git",
+  "author": "Tom.bat",
+  "license": "MIT",
+  "devDependencies": {
+      "handlebars": "^4.7.6",
+      "prettier": "^2.2.1"
+  }
+}
